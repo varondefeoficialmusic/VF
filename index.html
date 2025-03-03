@@ -359,6 +359,20 @@
     }
 }
 
+@media (max-width: 768px) {
+    .plataforma-button {
+        width: 45%; /* Ajustar el ancho para que quepan dos botones por fila */
+        font-size: 12px; /* Reducir el tamaño de la fuente */
+        padding: 6px 12px; /* Reducir el padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .plataforma-button {
+        width: 100%; /* Hacer que los botones ocupen todo el ancho en móviles pequeños */
+    }
+}
+
   /* Contenedor de plataformas de música */
  .plataformas-musica {
     display: flex;
@@ -379,6 +393,7 @@
     color: #fff;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    text-align: center; /* Centrar el texto */
 }
 
 /* Colores específicos para cada canción */
