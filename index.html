@@ -345,9 +345,13 @@
     }
 
     .plataformas-musica {
-        flex-direction: column;
-        align-items: center;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Reducir el espacio entre botones en móviles */
+    justify-content: center; /* Centrar los botones */
+    max-width: 100%; /* Evitar que se salga del borde */
+    padding: 0 10px; /* Añadir un pequeño padding a los lados */
+}
 
     .plataforma-button {
         width: 100%;
